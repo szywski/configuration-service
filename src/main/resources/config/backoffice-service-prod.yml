@@ -4,7 +4,7 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: https://service-registry-668227fe367b.herokuapp.com/
+      defaultZone: https://service-registry-668227fe367b.herokuapp.com:8761
 
 management:
   tracing:
