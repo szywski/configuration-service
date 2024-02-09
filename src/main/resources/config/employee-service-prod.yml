@@ -1,0 +1,12 @@
+server:
+  port: 8082
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: https://service-registry-668227fe367b.herokuapp.com/
+
+management:
+  tracing:
+    sampling:
+      probability: 1.0
