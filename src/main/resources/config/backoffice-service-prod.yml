@@ -1,10 +1,10 @@
 server:
-  port: 8081
+  port: ${PORT:8081}
 
 eureka:
   client:
     serviceUrl:
-      defaultZone: https://service-registry-668227fe367b.herokuapp.com:8761
+      defaultZone: https://service-registry-668227fe367b.herokuapp.com:8761/eureka
 
 management:
   tracing:
