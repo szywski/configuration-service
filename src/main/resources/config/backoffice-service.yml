@@ -7,6 +7,9 @@ eureka:
       defaultZone: https://service-registry-668227fe367b.herokuapp.com/eureka
 
 management:
+  zipkin:
+    tracing:
+      endpoint: https://zipkin-c57be76182bd.herokuapp.com/zipkin/
   tracing:
     sampling:
       probability: 1.0
