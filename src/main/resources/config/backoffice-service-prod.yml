@@ -9,7 +9,7 @@ eureka:
 management:
   zipkin:
     tracing:
-      endpoint: https://zipkin-c57be76182bd.herokuapp.com/zipkin/api/v2/spans
+      endpoint: https://zipkin-c57be76182bd.herokuapp.com/zipkin/api/v2
   tracing:
     sampling:
       probability: 1.0
