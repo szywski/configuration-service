@@ -2,6 +2,8 @@ server:
   port: ${PORT:8082}
 
 eureka:
+  instance:
+    preferIpAddress: true
   client:
     serviceUrl:
       defaultZone: https://service-registry-668227fe367b.herokuapp.com/eureka
