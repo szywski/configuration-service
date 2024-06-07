@@ -3,7 +3,7 @@ server:
 
 eureka:
   instance:
-    hostname: https://office-service-c6fb3cf8fb5b.herokuapp.com/
+    hostname: office-service-c6fb3cf8fb5b.herokuapp.com
     preferIpAddress: true
   client:
     serviceUrl:
