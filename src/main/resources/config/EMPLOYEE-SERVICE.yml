@@ -4,6 +4,7 @@ server:
 eureka:
   instance:
     hostname: employee-service-4d24719603df.herokuapp.com
+    securePortEnabled: true
   client:
     serviceUrl:
       defaultZone: https://service-registry-668227fe367b.herokuapp.com/eureka
