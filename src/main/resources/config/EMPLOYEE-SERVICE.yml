@@ -4,12 +4,12 @@ server:
 eureka:
   instance:
     hostname: employee-service-4d24719603df.herokuapp.com
-    securePortEnabled: true
+    non-secure-port-enabled: false
+    secure-port-enabled: flase
+    non-secure-port: 80
   client:
     serviceUrl:
       defaultZone: https://service-registry-668227fe367b.herokuapp.com/eureka
-      non-secure-port: 80
-      secure-port: 443
 
 management:
   zipkin:
