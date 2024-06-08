@@ -13,8 +13,9 @@ management:
 eureka:
   instance:
     hostname: employee-service-4d24719603df.herokuapp.com
+    non-secure-port: 80
+    secure-port: 443
   client:
     serviceUrl:
       defaultZone: https://service-registry-668227fe367b.herokuapp.com/eureka/
-      non-secure-port: 80
-      secure-port: 443
+
