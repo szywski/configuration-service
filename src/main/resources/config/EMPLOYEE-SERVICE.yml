@@ -15,6 +15,6 @@ eureka:
     hostname: employee-service-4d24719603df.herokuapp.com
   client:
     serviceUrl:
-      defaultZone:https://service-registry-668227fe367b.herokuapp.com/eureka/
+      defaultZone: https://service-registry-668227fe367b.herokuapp.com/eureka/
       non-secure-port: 80
       secure-port: 443
