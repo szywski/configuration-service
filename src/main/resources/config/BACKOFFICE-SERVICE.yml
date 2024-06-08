@@ -1,15 +1,6 @@
 server:
   port: ${PORT:8081}
 
-eureka:
-  instance:
-    hostname: office-service-c6fb3cf8fb5b.herokuapp.com
-  client:
-    serviceUrl:
-      defaultZone: https://service-registry-668227fe367b.herokuapp.com/eureka
-      non-secure-port: 80
-      secure-port: 443
-
 management:
   zipkin:
     tracing:
@@ -17,3 +8,13 @@ management:
   tracing:
     sampling:
       probability: 1.0
+
+
+eureka:
+  instance:
+    hostname: office-service-c6fb3cf8fb5b.herokuapp.com
+    non-secure-port: 80
+    secure-port: 443
+  client:
+    serviceUrl:
+      defaultZone: https://service-registry-668227fe367b.herokuapp.com/eureka/
