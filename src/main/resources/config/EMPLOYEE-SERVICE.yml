@@ -9,7 +9,7 @@ eureka:
     serviceUrl:
       defaultZone: https://service-registry-668227fe367b.herokuapp.com/eureka
       non-secure-port: 80
-      secure- port-enabled: 443
+      secure-port-enabled: 443
 
 management:
   zipkin:
